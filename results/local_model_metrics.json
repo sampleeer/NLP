@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "source_repository_snapshot": "/Users/pavelnehaenko/Desktop/ИТМО/nlp_disaster_tweets_project",
+    "copied_from": [
+      "models/baseline_metrics.json",
+      "models/transformer_metrics.json"
+    ],
+    "source_commit_for_submission_package": "a2296f4",
+    "status": "saved_local_experiment_outputs"
+  },
+  "evaluation": {
+    "split": "stratified 80/20 validation split",
+    "seed": 42,
+    "metric_selection": "validation-tuned F1 threshold"
+  },
+  "results": [
+    {
+      "model": "tfidf_linear_svm",
+      "accuracy": 0.8049901510177282,
+      "precision": 0.7668161434977578,
+      "recall": 0.7844036697247706,
+      "f1": 0.7755102040816326,
+      "roc_auc": 0.8673138304423869,
+      "threshold": -0.09030608190236045
+    },
+    {
+      "model": "tfidf_logreg",
+      "accuracy": 0.8273145108338805,
+      "precision": 0.8231404958677686,
+      "recall": 0.7614678899082569,
+      "f1": 0.7911040508339953,
+      "roc_auc": 0.8780189539102556,
+      "C": 2.0,
+      "threshold": 0.48000000000000004
+    },
+    {
+      "model": "distilbert-base-uncased",
+      "accuracy": 0.8476690741956664,
+      "precision": 0.8504983388704319,
+      "recall": 0.7828746177370031,
+      "f1": 0.8152866242038217,
+      "roc_auc": 0.9009529741732738,
+      "threshold": 0.18951824903488146,
+      "source_checkpoint": "models/distilbert/checkpoint-762 (working repository only)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "train_rows": 7613,
+  "test_rows": 3263,
+  "target_counts": {
+    "1": 3271,
+    "0": 4342
+  },
+  "unique_train_canonical_texts": 6890,
+  "unique_test_canonical_texts": 3087,
+  "train_duplicate_text_groups": 318,
+  "train_conflicting_duplicate_groups": 72,
+  "train_test_exact_text_overlap_groups": 284,
+  "test_rows_with_unambiguous_train_duplicate_label": 347,
+  "test_duplicate_label_coverage_rate": 0.10634385534783941,
+  "validation_duplicate_lookup_upper_bound": {
+    "validation_rows": 1523,
+    "covered_by_exact_duplicate": 177,
+    "duplicate_coverage_rate": 0.11621799080761655,
+    "duplicate_lookup_f1_on_all_validation": 0.2963917525773196,
+    "duplicate_lookup_f1_on_covered_subset": 0.9311740890688259
+  },
+  "note": "This audit is for analysis only. It must not be used to recover hidden Kaggle labels or to construct a leakage-based competition submission."
+}

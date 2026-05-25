@@ -1,0 +1,75 @@
+{
+  "provenance": {
+    "source": "Values recorded in the pre-revision report/report.tex supplied in the submission package.",
+    "executable_implementations": [
+      "code/kaggle_notebook.py",
+      "code/kaggle_kfold_ensemble.py"
+    ],
+    "status": "recorded_not_independently_recomputed",
+    "limitation": "The corresponding Kaggle Runtime metrics.json and RoBERTa checkpoint were not present in the submitted or working repository snapshot during report preparation."
+  },
+  "single_split": {
+    "split": "stratified 80/20",
+    "seed": 42,
+    "results": [
+      {
+        "model": "tfidf_logreg",
+        "accuracy": 0.8227,
+        "precision": 0.8127,
+        "recall": 0.7630,
+        "f1": 0.7871,
+        "roc_auc": 0.8768
+      },
+      {
+        "model": "roberta-base_epoch_1",
+        "accuracy": 0.8398,
+        "precision": 0.8116,
+        "recall": 0.8165,
+        "f1": 0.8140,
+        "roc_auc": 0.9010
+      },
+      {
+        "model": "roberta-base_epoch_2",
+        "accuracy": 0.8575,
+        "precision": 0.8553,
+        "recall": 0.8043,
+        "f1": 0.8290,
+        "roc_auc": 0.9063
+      },
+      {
+        "model": "roberta-base_epoch_3",
+        "accuracy": 0.8575,
+        "precision": 0.8564,
+        "recall": 0.8028,
+        "f1": 0.8287,
+        "roc_auc": 0.9052
+      },
+      {
+        "model": "roberta-base_epoch_4",
+        "accuracy": 0.8562,
+        "precision": 0.8362,
+        "recall": 0.8272,
+        "f1": 0.8317,
+        "roc_auc": 0.9064
+      },
+      {
+        "model": "roberta_tfidf_probability_ensemble",
+        "alpha_transformer": 0.9,
+        "threshold": 0.3875,
+        "accuracy": 0.8562,
+        "precision": 0.8362,
+        "recall": 0.8272,
+        "f1": 0.8317,
+        "roc_auc": 0.9080
+      }
+    ]
+  },
+  "cross_validation": {
+    "model": "five_fold_roberta_tfidf_oof",
+    "f1": 0.8073,
+    "accuracy": 0.8409,
+    "precision": 0.8420,
+    "recall": 0.7753,
+    "roc_auc": 0.8966
+  }
+}

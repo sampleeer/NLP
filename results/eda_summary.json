@@ -1,0 +1,103 @@
+{
+  "train": {
+    "rows": 7613,
+    "mean_chars": 92.45396033101274,
+    "median_chars": 94.0,
+    "mean_tokens": 17.341389728096676,
+    "median_tokens": 17.0
+  },
+  "test": {
+    "rows": 3263,
+    "mean_chars": 93.46399019307385,
+    "median_chars": 95.0,
+    "mean_tokens": 17.550720196138524,
+    "median_tokens": 18.0
+  },
+  "class_distribution": {
+    "0": 4342,
+    "1": 3271
+  },
+  "class_rate": {
+    "0": 0.5703402075397347,
+    "1": 0.4296597924602653
+  },
+  "missing_keyword_rate_train": 0.008012610009194798,
+  "missing_location_rate_train": 0.33272034677525286,
+  "top_keywords": [
+    {
+      "keyword": "fatalities",
+      "count": 45,
+      "positive_rate": 0.5777777777777777
+    },
+    {
+      "keyword": "deluge",
+      "count": 42,
+      "positive_rate": 0.14285714285714285
+    },
+    {
+      "keyword": "armageddon",
+      "count": 42,
+      "positive_rate": 0.11904761904761904
+    },
+    {
+      "keyword": "sinking",
+      "count": 41,
+      "positive_rate": 0.1951219512195122
+    },
+    {
+      "keyword": "damage",
+      "count": 41,
+      "positive_rate": 0.4634146341463415
+    },
+    {
+      "keyword": "harm",
+      "count": 41,
+      "positive_rate": 0.0975609756097561
+    },
+    {
+      "keyword": "body%20bags",
+      "count": 41,
+      "positive_rate": 0.024390243902439025
+    },
+    {
+      "keyword": "outbreak",
+      "count": 40,
+      "positive_rate": 0.975
+    },
+    {
+      "keyword": "evacuate",
+      "count": 40,
+      "positive_rate": 0.625
+    },
+    {
+      "keyword": "fear",
+      "count": 40,
+      "positive_rate": 0.125
+    },
+    {
+      "keyword": "collided",
+      "count": 40,
+      "positive_rate": 0.575
+    },
+    {
+      "keyword": "siren",
+      "count": 40,
+      "positive_rate": 0.125
+    },
+    {
+      "keyword": "twister",
+      "count": 40,
+      "positive_rate": 0.125
+    },
+    {
+      "keyword": "windstorm",
+      "count": 40,
+      "positive_rate": 0.4
+    },
+    {
+      "keyword": "sinkhole",
+      "count": 39,
+      "positive_rate": 0.6923076923076923
+    }
+  ]
+}

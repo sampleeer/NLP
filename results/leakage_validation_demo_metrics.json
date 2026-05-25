@@ -1,0 +1,9 @@
+{
+  "validation_rows": 1523,
+  "covered_rows": 177,
+  "coverage_rate": 0.11621799080761655,
+  "duplicate_lookup_f1_all_validation": 0.2963917525773196,
+  "duplicate_lookup_f1_covered_subset": 0.9311740890688259,
+  "hybrid_oracle_f1_all_validation": 0.9869731800766284,
+  "note": "This is a validation-only leakage demonstration. It uses true validation labels in oracle columns to illustrate why leakage can inflate scores. Do not use it for Kaggle test predictions."
+}

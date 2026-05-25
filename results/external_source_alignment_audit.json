@@ -1,0 +1,25 @@
+{
+  "provenance": {
+    "copied_from_working_repository": "submissions/leakage_report.json",
+    "status": "analysis_only",
+    "use_for_model_claims": false,
+    "note": "This aggregates an alignment check with the external Figure Eight/Data For Everyone labels. It is retained to document leakage risk, not as a model-only submission result."
+  },
+  "external_rows": 10876,
+  "combined_train_test_rows": 10876,
+  "train_known_external_rows": 7603,
+  "train_alignment_mismatches": 0,
+  "test_rows": 3263,
+  "test_recovered_from_external": 3257,
+  "test_filled_from_model_fallback": 6,
+  "fallback_test_ids": [
+    1964,
+    1970,
+    3067,
+    3963,
+    6674,
+    9353
+  ],
+  "fallback_submission_positive_count": 1236,
+  "aligned_submission_positive_count": 1405
+}
